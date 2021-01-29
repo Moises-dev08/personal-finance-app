@@ -1,0 +1,32 @@
+.last10results {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 300px;
+  height: max-content;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.last10results__data {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+  .last10results {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    height: max-content;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}

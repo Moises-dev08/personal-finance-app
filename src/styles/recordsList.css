@@ -1,0 +1,22 @@
+.recordsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media screen and (min-device-width: 480px) and (max-width: 768px) {
+  .recordsList {
+    display: flex;
+    justify-content: center;
+    width: 130%;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .recordsList {
+    display: flex;
+    justify-content: center;
+    width: 200%;
+    justify-content: space-around;
+  }
+}

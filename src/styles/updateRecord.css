@@ -1,0 +1,28 @@
+.updateForm {
+  display: flex;
+  justify-content: center;
+}
+
+.updateForm__button {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  border-radius: 1px;
+  background-color: rgb(76, 162, 168);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.updateForm__link {
+  color: white;
+  font-size: 17px;
+}
+.errors {
+  color: red;
+  margin-top: 5px;
+}

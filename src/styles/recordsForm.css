@@ -1,0 +1,36 @@
+.recordsForm {
+  display: flex;
+  justify-content: center;
+}
+
+.recordsForm__button {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  border-radius: 1px;
+  background-color: rgb(76, 162, 168);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.recordsForm__link {
+  color: white;
+  font-size: 17px;
+}
+.errors {
+  color: red;
+  margin-top: 5px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .recordsForm {
+    display: flex;
+    justify-content: center;
+    width: 150%;
+  }
+}
